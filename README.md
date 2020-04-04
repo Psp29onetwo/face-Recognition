@@ -10,9 +10,9 @@ These face recognition system has following features:
     - Furthur more features is that it can detect the nose and mouth of multiple faces at a time too.
     - Simple and easy to integrate with web(Flask) and mobile application(KIVY) 😉😉.
 
-============================================================================================================================
-    
-     Requirements:
-      -Install requirements.txt    
+- Web and mobile application is in development stay tuned for more...
+
+       Requirements:
+         -Install requirements.txt    
 
 Enjoy and contact for any suggestions🚀🚀🚀
