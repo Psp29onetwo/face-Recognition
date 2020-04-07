@@ -2,8 +2,8 @@ import cv2
 
 
 
-def generate_dataaset(img, id,img_id):
-    cv2.imwrite("data/user." + str(id) + "." + str(img_id) + ".jpg", img)
+def generate_dataset(img, id,img_id):
+    cv2.imwrite("data1/user." + str(id) + "." + str(img_id) + ".jpg", img)
 
 
 
@@ -17,7 +17,9 @@ def draw_boundary(img, classifier, scaleFactor, minNeighbors, color, text, clf):
 
         if id == 1:
             cv2.putText(img, "PSP", (x, y - 4), cv2.FONT_HERSHEY_SIMPLEX, 0.8, color, 1, cv2.LINE_AA)
-        coords = [x, y, w, h]
+        if id == 2:
+            cv2.putText(img, "AB", (x, y - 4), cv2.FONT_HERSHEY_SIMPLEX, 0.8, color, 1, cv2.LINE_AA)
+
     return coords
 
 
@@ -39,7 +41,7 @@ def detect(img, faceCascade, eyeCascade, img_id):
         roi_img = img[coords[1]: coords[1] + coords[3], coords[0]: coords[0] + coords[2]]
 
         user_id = 1
-        generate_dataaset(roi_img, user_id, img_id)
+        generate_dataset(roi_img, user_id, img_id)
 
         # coords = draw_boundary(roi_img, eyeCascade, 1.1, 14, color["red"], "Eyes")
 
