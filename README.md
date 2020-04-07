@@ -16,12 +16,12 @@ These face recognition system has following features:
          -Install requirements.txt    
 
 For running the project follow the steps:
--   Delete data1 folder.
--   Change img_id to 1 in generate_data.py.
--   Run generate_data.py to generate new data of pictures.
--   Change img_id to 2 for second user generate_data.py.
--   repeate 2nd, 3rd, 4th step to generate as many users.
--   Run classifier.py to train and generate classifier.yml file which contains the trained data.
--   Run script.py and play around the face detections of all users which are trained.
+1.   Delete data1 folder.
+2.   Change img_id to 1 in generate_data.py.
+3.   Run generate_data.py to generate new data of pictures.
+4.   Change img_id to 2 for second user generate_data.py.
+5.   repeate 2nd, 3rd, 4th step to generate as many users.
+6.   Run classifier.py to train and generate classifier.yml file which contains the trained data.
+7.   Run script.py and play around the face detections of all users which are trained.
 
 Enjoy and contact for any suggestions🚀🚀🚀
