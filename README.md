@@ -20,7 +20,7 @@ For running the project follow the steps:
 2.   Change img_id to 1 in generate_data.py.
 3.   Run generate_data.py to generate new data of pictures.
 4.   Change img_id to 2 for second user generate_data.py.
-5.   repeate 2nd, 3rd, 4th step to generate as many users.
+5.   Repeate 2nd, 3rd, 4th step to generate as many users.
 6.   Run classifier.py to train and generate classifier.yml file which contains the trained data.
 7.   Run script.py and play around the face detections of all users which are trained.
 
