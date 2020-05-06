@@ -3,7 +3,7 @@ import cv2
 
 
 def generate_dataset(img, id,img_id):
-    cv2.imwrite("data1/user." + str(id) + "." + str(img_id) + ".jpg", img)
+    cv2.imwrite("data/user." + str(id) + "." + str(img_id) + ".jpg", img)
 
 
 
