@@ -23,5 +23,10 @@ For running the project follow the steps:
 5.   Repeate 2nd, 3rd, 4th step to generate as many users.
 6.   Run classifier.py to train and generate classifier.yml file which contains the trained data.
 7.   Run script.py and play around the face detections of all users which are trained.
+- Here are some example of working project. :)
+
+![](example.png)
+
+![](example1.png)
 
 Enjoy and contact for any suggestions🚀🚀🚀
